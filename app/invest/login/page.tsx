@@ -59,7 +59,7 @@ export default function LoginPage() {
                         className="text-lg font-bold tracking-[0.25em] uppercase text-white inline-block"
                         style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
                     >
-                        Meta <span className="text-red-500">Wealth</span>
+                        Tesla <span className="text-red-500">SpaceX</span>
                     </Link>
                 </div>
 
