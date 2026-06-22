@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import AuthProvider from "@/components/AuthProvider";
-import SmartsuppChat from "@/components/SmartsuppChat";
+import TelegramChat from "@/components/TelegramChat";
 import GTranslateWidget from "@/components/GTranslateWidget";
 import "./globals.css";
 
@@ -99,7 +99,7 @@ export default function RootLayout({
           <div className="relative w-full max-w-[100vw] overflow-x-hidden flex flex-col min-h-screen">
             {children}
           </div>
-          <SmartsuppChat />
+          <TelegramChat />
           <GTranslateWidget />
         </AuthProvider>
       </body>
